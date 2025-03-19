@@ -6,19 +6,20 @@ return {
   },
   opts = {
     keymap = {
+      preset = "super-tab",
       ["<C-d>"] = { "show", "show_documentation", "hide_documentation" },
-      ["<Tab>"] = {
-        "select_next",
-        "snippet_forward",
-        -- "ai_accept",
-        "fallback",
-      },
-      ["<S-Tab>"] = {
-        "select_prev",
-        "snippet_backward",
-        "fallback",
-      },
-      ["<CR>"] = { "accept", "fallback" },
+      -- ["<Tab>"] = {
+      --   "select_next",
+      --   "snippet_forward",
+      --   -- "ai_accept",
+      --   "fallback",
+      -- },
+      -- ["<S-Tab>"] = {
+      --   "select_prev",
+      --   "snippet_backward",
+      --   "fallback",
+      -- },
+      -- ["<CR>"] = { "accept", "fallback" },
       -- ["<S-CR>"] = { "cancel", "fallback" },
     },
   },
