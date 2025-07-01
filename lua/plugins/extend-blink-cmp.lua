@@ -1,5 +1,6 @@
 return {
   "saghen/blink.cmp",
+  version = "1.3.1", -- TODO: remove this util new adapt lazyvim released
   completion = {
     keyword = { range = "prefix" },
     list = { selection = { preselect = false, auto_insert = false } },
